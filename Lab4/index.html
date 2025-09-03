@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form action="#" method="post">
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname" required>
+
+  <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname" required>
+
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob" required>
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender" required>
+    <option value="">--Select--</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone" required>
+
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="3" required></textarea>
+
+  <label for="course">Course:</label>
+  <select id="course" name="course" required>
+    <option value="">--Select Course--</option>
+    <option value="cs">Computer Science</option>
+    <option value="it">Information Technology</option>
+    <option value="eng">Engineering</option>
+    <option value="bba">Business Administration</option>
+  </select>
+
+  <label for="hobbies">Hobbies:</label>
+  <input type="checkbox" name="hobbies" value="sports"> Sports
+  <input type="checkbox" name="hobbies" value="music"> Music
+  <input type="checkbox" name="hobbies" value="reading"> Reading
+  <input type="checkbox" name="hobbies" value="travel"> Travel
+
+  <label for="photo">Upload Photo:</label>
+  <input type="file" id="photo" name="photo">
+
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>

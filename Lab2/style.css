@@ -1,0 +1,95 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+.purple-text {
+  font-size: 18px;
+  color: purple;
+}
+
+.yellow-bg {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.italic-teal {
+  font-style: italic;
+  color: teal;
+}
+
+.underline-red {
+  text-decoration: underline;
+  color: red;
+}
+
+.bordered {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.gray-bg {
+  background-color: lightgray;
+  font-family: monospace;
+}
+
+.styled-quote {
+  font-size: 20px;
+  background-color: lightblue;
+  padding: 10px;
+  border-left: 5px solid blue;
+}
+
+.centered-orange {
+  text-align: center;
+  font-size: 20px;
+  color: darkorange;
+}
+
+.highlight {
+  background-color: lime;
+}
+
+.mixed-text strong {
+  color: darkred;
+}
+
+.mixed-text em {
+  color: darkblue;
+}
+
+.styled-list {
+  background-color: lavender;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.styled-list li:nth-child(1) {
+  color: darkmagenta;
+}
+.styled-list li:nth-child(2) {
+  color: darkcyan;
+}
+.styled-list li:nth-child(3) {
+  color: darkgoldenrod;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(1) {
+  background-color: lightgreen;
+}
